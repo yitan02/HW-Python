@@ -1,5 +1,6 @@
 def swap_last_item():
     list = []
+    n = int(input("elements input"))
     for i in range (n):
         data = int(input())
         list.append(data)

@@ -1,10 +1,10 @@
 def calculator(number1,number2,operator):
        converted_number1 = str(number1)
        converted_number2 = str(number2) 
-       message = input("Enter equation: ")
-       for character in operator:
-           if character not in '+-*/' :
-                return False 
+      # message = input("Enter equation: ")
+      # for character in message:
+      #     if character not in '+-*/' or character not in '1234567890':
+      #          return False 
        if operator == '+' :
              return number1 + number2
        elif operator == '-' :

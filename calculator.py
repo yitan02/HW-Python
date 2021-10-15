@@ -2,7 +2,7 @@ def calculator(number1,number2,operator):
     while True:
           message = input("Enter equation: ")
           for character in operator:
-             if character not in '+-*/'
+             if character not in '+-*/' :
                 return False 
           if operator == '+' :
              return number1 + number2

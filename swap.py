@@ -6,7 +6,7 @@ def swap_last_item(list):
     list[0] = temp
     output = []
     output.append(list[0])
-    output.extend([list[1:-2])
+    output.extend(list[1:-2])
     output.append(list[-1])
     print(f'Input: {input}')
     print(f'Output: {output}')

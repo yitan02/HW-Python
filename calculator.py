@@ -107,7 +107,8 @@ def parse_input(user_input):
     ['25','**','2']
     >>> parse_input(99-4)
     ['99','-','4']
-       
+    """ 
+   
     # Assign parse item to variables that will be used for calculator()
     number1 = user_input.split()[0]
     operator = user_input.split()[1]

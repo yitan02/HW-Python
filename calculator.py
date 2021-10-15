@@ -1,44 +1,44 @@
 def calculator(number1,number2,operator):
-    """ 
-    Perform operations on two numbers based. 
+     
+   # Perform operations on two numbers based. 
 
-    This function takes the operator and calculate the result from the two 
-    numbers. The type of operation it will perform will be dependent on the
-    user's input. There is also complex division added in to prevent division
-    by zero.
+   # This function takes the operator and calculate the result from the two 
+   # numbers. The type of operation it will perform will be dependent on the
+   # user's input. There is also complex division added in to prevent division
+   # by zero.
 
-    Parameter
-    _________
-    number1 : int
-           First number to perform operation.
-    number2 : int 
-           Second number to perform operation.
-    operator : str
-           An operation symbol to determine operation performed.
+   # Parameter
+   #  _________
+   # number1 : int
+   #        First number to perform operation.
+   # number2 : int 
+   #        Second number to perform operation.
+   # operator : str
+   #        An operation symbol to determine operation performed.
     
-    Returns
-    _______
-    int
-       The sum, subtraction,integer division, power, multiplication of
-       "number1" and "number2".
-    float
-       The simple division of "number1" and "number2".
+   # Returns
+   # _______
+   # int
+   #    The sum, subtraction,integer division, power, multiplication of
+   #    "number1" and "number2".
+   # float
+   #    The simple division of "number1" and "number2".
 
-    Examples
-    ________
-    >>> calculator(1,1,'+')
-    2
-    >>> calculator(4,2,'-')
-    2
-    >>> calculator(10,5,'/')
-    2.0
-    >>> calculator(20,5,'//')
-    4
-    >>> calculator(2,4,'*')
-    8
-    >>> calculator(5,2,'**')
-    25
-    """
+   # Examples
+   # ________
+   # >>> calculator(1,1,'+')
+   # 2
+   # >>> calculator(4,2,'-')
+   # 2
+   # >>> calculator(10,5,'/')
+   # 2.0
+   # >>> calculator(20,5,'//')
+   # 4
+   # >>> calculator(2,4,'*')
+   # 8
+   # >>> calculator(5,2,'**')
+   #25
+   #"""
 
     print('python calculator.py')
     print("") 

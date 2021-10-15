@@ -1,17 +1,19 @@
 def calculator(number1,number2,operator):
-          message = input("Enter equation:")
-          for character in operator:
-             if character not in '+-*/' :
+       converted_number1 = str(number1)
+       converted_number2 = str(number2) 
+       message = input("Enter equation: ")
+       for character in operator:
+           if character not in '+-*/' :
                 return False 
-          if operator == '+' :
+       if operator == '+' :
              return number1 + number2
-          elif operator == '-' :
+       elif operator == '-' :
              return number1 - number2
-          elif operator == '/' :
+       elif operator == '/' :
              return number1/number2
-          elif operator == '//' :
+       elif operator == '//' :
              return number1//number2
-          elif operator == '**' :
+       elif operator == '**' :
              return number1**number2
 
 def parse_input(user_input):

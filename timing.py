@@ -5,5 +5,5 @@ def calculate_time(func):
         func()
         end_time = time.time()
         time_taken = end_time-start_time
-        print("Hello. This is after function executes.")
+        print("Hello.")
     return wrapper 

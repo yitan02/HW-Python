@@ -15,6 +15,7 @@ def calculator(number1,number2,operator):
              return difference
        elif operator == '/' :
              if number2 == 0:
+                print('cannot print by 0')
                 return
              else:
                 divide = number1/number2

@@ -1,6 +1,4 @@
 def calculator(number1,number2,operator):
-       converted_number1 = str(number1)
-       converted_number2 = str(number2)
        print('python calculator.py')
        print("") 
        print(f'Enter equation: {number1} {operator} {number2}')
@@ -8,20 +6,32 @@ def calculator(number1,number2,operator):
            if character not in '+-*/':
                 return False 
        if operator == '+' :
-             return number1 + number2
+             sum = number1 + number2
+             print(sum)
+             return sum
        elif operator == '-' :
-             return number1 - number2
+             difference = number1-number2
+             print(difference)
+             return difference
        elif operator == '/' :
              if number2 == 0:
                 return
              else:
-                return number1/number2
+                divide = number1/number2
+                print(divide)
+                return divide
        elif operator == '//' :
-             return number1//number2
+             int_div = number1//number2
+             print(int_div)
+             return int_div
        elif operator == '**' :
-             return number1**number2
+             power = number**number2
+             print(power)
+             return power
        elif operator == '*' :
-             return number1*number2
+             multiply = number*number2
+             print(multiply)
+             return multiply
 
 def parse_input(user_input):
     number1 = user_input.split()[0]

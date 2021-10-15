@@ -3,7 +3,7 @@ def calculator(number1,number2,operator):
        converted_number2 = str(number2)
        print('python calculator.py')
        print("") 
-       print(f'Enter equation: {number1} {operator {number2}')
+       print(f'Enter equation: {number1} {operator} {number2}')
        for character in operator:
            if character not in '+-*/':
                 return False 

@@ -1,9 +1,9 @@
 def calculator(number1,number2,operator):
-    allowed = set("+ - * / // **")
     while True:
           message = input("Enter equation: ")
-          if message and allowed.issuperset(message):
-             return False 
+          for character in operator:
+             if character not in '+-*/'
+                return False 
           if operator == '+' :
              return number1 + number2
           elif operator == '-' :

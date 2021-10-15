@@ -25,11 +25,11 @@ def calculator(number1,number2,operator):
              print(int_div)
              return int_div
        elif operator == '**' :
-             power = number**number2
+             power = number1**number2
              print(power)
              return power
        elif operator == '*' :
-             multiply = number*number2
+             multiply = number1*number2
              print(multiply)
              return multiply
 

@@ -1,5 +1,5 @@
 def calculator(number1,number2,operator):
-          message = input("Enter equation: ")
+          message = input("Enter equation:")
           for character in operator:
              if character not in '+-*/' :
                 return False 

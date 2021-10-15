@@ -10,7 +10,10 @@ def calculator(number1,number2,operator):
        elif operator == '-' :
              return number1 - number2
        elif operator == '/' :
-             return number1/number2
+             if number2 == 0:
+                return
+             else
+                return number1/number2
        elif operator == '//' :
              return number1//number2
        elif operator == '**' :

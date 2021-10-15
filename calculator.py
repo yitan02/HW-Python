@@ -1,6 +1,6 @@
 def calculator(number1,number2,operator):
     """ 
-    Perform operations on two numbers based 
+    Perform operations on two numbers based. 
 
     This function takes the operator and calculate the result from the two 
     numbers. The type of operation it will perform will be dependent on the
@@ -81,7 +81,7 @@ def calculator(number1,number2,operator):
 
 def parse_input(user_input):
     """
-    Split the number and operator
+    Split the number and operator.
    
     The function splits the number and operator so that it is easy to use as
     a variable in calculator(). The parse items will be assigned to input 

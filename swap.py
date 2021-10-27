@@ -28,7 +28,7 @@ def swap_last_item(list):
     input = list
  
     #stored last item in temp so that the last item can still be used after
-     swapping
+    #swapping
     temp = list[-1]
  
     list[-1] = list[0]

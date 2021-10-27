@@ -1,64 +1,64 @@
 def calculator(number1,number2,operator):
-     
-   # Perform operations on two numbers based. 
+   """  
+   Perform operations on two numbers based. 
 
-   # This function takes the operator and calculate the result from the two 
-   # numbers. The type of operation it will perform will be dependent on the
-   # user's input. There is also complex division added in to prevent division
-   # by zero.
+   This function takes the operator and calculate the result from the two 
+   numbers. The type of operation it will perform will be dependent on the
+   user's input. There is also complex division added in to prevent division
+   by zero.
 
-   # Parameter
-   #  _________
-   # number1 : int
-   #        First number to perform operation.
-   # number2 : int 
-   #        Second number to perform operation.
-   # operator : str
-   #        An operation symbol to determine operation performed.
+   Parameter
+    _________
+   number1 : int
+          First number to perform operation.
+   number2 : int 
+          Second number to perform operation.
+   operator : str
+          An operation symbol to determine operation performed.
     
-   # Returns
-   # _______
-   # int
-   #    The sum, subtraction,integer division, power, multiplication of
-   #    "number1" and "number2".
-   # float
-   #    The simple division of "number1" and "number2".
+   Returns
+   _______
+   int
+      The sum, subtraction,integer division, power, multiplication of
+      "number1" and "number2".
+   float
+      The simple division of "number1" and "number2".
 
-   # Examples
-   # ________
-   # >>> calculator(1,1,'+')
-   # 2
-   # >>> calculator(4,2,'-')
-   # 2
-   # >>> calculator(10,5,'/')
-   # 2.0
-   # >>> calculator(20,5,'//')
-   # 4
-   # >>> calculator(2,4,'*')
-   # 8
-   # >>> calculator(5,2,'**')
-   #25
-   #"""
+   Examples
+   ________
+   >>> calculator(1,1,'+')
+   2
+   >>> calculator(4,2,'-')
+   2
+   >>> calculator(10,5,'/')
+   2.0
+   >>> calculator(20,5,'//')
+   4
+   >>> calculator(2,4,'*')
+   8
+   >>> calculator(5,2,'**')
+   25
+   """
 
-    print('python calculator.py')
-    print("") 
-    print(f'Enter equation: {number1} {operator} {number2}')
+   print('python calculator.py')
+   print("") 
+   print(f'Enter equation: {number1} {operator} {number2}')
 
     # Checking if the character is a valid operator
-     for character in operator:
-         if character not in '+-*/':
-            return False
+   for character in operator:
+        if character not in '+-*/':
+           return False
    
     # Performing operation based on input operator
-     if operator == '+' :
+   if operator == '+' :
           sum = number1 + number2
           print(sum)
           return sum
-     elif operator == '-' :
+   elif operator == '-' :
           difference = number1-number2
           print(difference)
           return difference
-     elif operator == '/' :
+   elif operator == '/' :
          if number2 == 0:
              print('cannot print by 0')
              return
@@ -66,15 +66,15 @@ def calculator(number1,number2,operator):
              divide = number1/number2
              print(divide)
              return divide
-     elif operator == '//' :
+   elif operator == '//' :
           int_div = number1//number2
           print(int_div)
           return int_div
-     elif operator == '**' :
+   elif operator == '**' :
           power = number1**number2
           print(power)
           return power
-     elif operator == '*' :
+   elif operator == '*' :
           multiply = number1*number2
           print(multiply)
           return multiply

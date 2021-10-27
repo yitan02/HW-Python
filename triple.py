@@ -1,6 +1,6 @@
 def tripler(func):
     def wrapper():
-    """
+       """
     Calls a function 3 times.
       
     This function has nothing much special and calls a function three times.
@@ -28,7 +28,7 @@ def tripler(func):
     hello
     hello
     """
-        func()
-        func()
-        func()
+       func()
+       func()
+       func()
     return wrapper
